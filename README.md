@@ -1,3 +1,3 @@
 This course is about Object-Oriented Programming, 
-in this course we have learned about jave and its properietes 
+in this course we have learned about Java and its properietes 
 and learned a lot of priciples of how to design our code and to make it readible, can extends it simply...
