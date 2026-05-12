@@ -1,0 +1,17 @@
+abdalla.hle192
+326348679
+
+Naive player - put a mark in the first empty place in the current row,
+then it moves to the next row.
+
+Whatever player - get a random number for each one of the row and the column
+then put a mark in the (row,column) (if (row,column) is not empty then get another
+ (row,column) by the same method).
+
+Smart player - scans the board column by column, starting from different rows each time.
+               It skips columns that contain the opponent’s marks
+                and places its mark in the first available cell of a “clean” column.
+
+The advantage of designing the program so that all player classes implement a common interface
+ is that it allows the program to treat all players in the same way, regardless of their specific type.
+ This design relies on the OOP principles of polymorphism and abstraction.
